@@ -1,4 +1,4 @@
-// fonction appelÃ©e lorsque l'utilisateur valide la saisie du formulaire
+// fonction appeller lorsque l'utilisateur valide la saisie du formulaire
 function valider()
 {
 	var champsRequis = document.getElementsByClassName('required');
