@@ -1,24 +1,23 @@
-HTML
-
 
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>CHANGER LE TITRE </title>
-    <link rel="stylesheet" href="test.css">
-    </head>
+    <title>ACCUEIL Machines informatiques dans l'astronomie</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
   <body>
+    <div class="fond">
     <div class="fondue">
       <div class="navbar">
           <img src="images/logo.png" class="logo">
           <nav>
             <ul>
-              <li> <a href="">HOME</a></li>
-              <li> <a href="">QUIZ</a></li>
-              <li> <a href="">SOURCE</a></li>
+              <li> <a href="accueil.html">ACCUEIL</a></li>
+              <li> <a href="QCM.html">QUIZ</a></li>
+              <li> <a href="">SOURCES</a></li>
             </ul>
           </nav>
           <img src="images/fleche.png" class="fleche">
         </div>
-
+    </div>
