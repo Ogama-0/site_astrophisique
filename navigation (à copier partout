@@ -1,4 +1,7 @@
-  <!DOCTYPE html>
+HTML
+
+
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -6,7 +9,6 @@
     <link rel="stylesheet" href="test.css">
     </head>
   <body>
-    <div class="fond">
     <div class="fondue">
       <div class="navbar">
           <img src="images/logo.png" class="logo">
@@ -19,3 +21,53 @@
           </nav>
           <img src="images/fleche.png" class="fleche">
         </div>
+
+
+CSS
+
+
+.fondue {
+  height: 12%;
+  background-image: linear-gradient( rgba(0,0,0,0.8), 80%, transparent);
+  
+}
+.navbar {
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  /*background-color: blanchedalmond;*/
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.fleche{
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+
+nav {
+  flex:1;
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+
+}
+
