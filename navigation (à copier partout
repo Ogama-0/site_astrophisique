@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="Style.css">
   </head>
   <body>
-    <div class="fond">
     <div class="fondue">
       <div class="navbar">
           <img src="images/logo.png" class="logo">
