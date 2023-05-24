@@ -104,3 +104,19 @@ footer {
 .titre_centrer{
   text-align: center;
 }
+transition{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 118%;
+}
+body main texte li{
+  font-size: 118%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body main texte p {
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+conclusion{
+  text-align: center;
+  font-size: 110%;
+}
