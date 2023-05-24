@@ -8,7 +8,7 @@
 .fondue {
   height: 12%;
   background-image: linear-gradient( rgba(0,0,0,0.8), 80%, transparent);
-  
+
 }
 .navbar {
   padding-left: 8%;
@@ -107,7 +107,6 @@ button a {
   border-radius: 20px;
   outline: none;
   margin-top: 30px;
-  text-decoration: none;
 }
 .carte{
   width: 200px;
