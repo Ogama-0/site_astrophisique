@@ -14,7 +14,7 @@
             <ul>
               <li> <a href="accueil.html">ACCUEIL</a></li>
               <li> <a href="QCM.html">QUIZ</a></li>
-              <li> <a href="">SOURCES</a></li>
+              <li> <a href="sources.html">SOURCES</a></li>
             </ul>
           </nav>
           <img src="images/fleche.png" class="fleche">
