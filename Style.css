@@ -241,9 +241,13 @@ ul, ol {
   margin-top: 0;
   padding-left: 20px;
 }
-
-
-
+.titre_centrer_up{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  text-decoration: none;
+  list-style: none;
+}
 .intro{
 text-align: center;
 }
@@ -253,6 +257,14 @@ text-align: center;
 transition{
 font-family:Georgia, 'Times New Roman', Times, serif;
 font-size: 118%;
+border: solid;
+padding-left: 3px;
+padding-top: 2px;
+padding-bottom: 4px;
+padding-right: 3px;
+border-radius: 5px;
+border-color: rgb(245, 245, 220)  ;
+background-color: rgb(245, 245, 220);
 }
 body main texte li{
 font-size: 118%;
@@ -277,4 +289,8 @@ section{
 .cont {
   display: flex;
   align-items: center;
+}
+html{
+
+
 }
