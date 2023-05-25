@@ -315,3 +315,9 @@ section .image-container{
 .boite p{
   padding-bottom: 0.5em;
 }
+.petit_case{
+  width:81px
+}
+.grande_case{
+  width:406px
+}
