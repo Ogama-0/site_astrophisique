@@ -329,6 +329,15 @@ table{
 }
 .image_centrer{
   margin: auto;
-  width: 10%;
-  height: 10%;
+}
+.container {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+}
+
+.text {
+  flex: 1;
 }
