@@ -1,7 +1,6 @@
 /* TABLEAU NAVIGATION*/
 
 *{margin:0;
-  padding:0;
   font-family: 'Roboto', sans-serif;
   }
 
@@ -47,6 +46,8 @@ nav ul li a{
 
 .banniere{
   background-size: cover;
+  background-image: linear-gradient(transparent);
+  opacity: 100%;
   width: 100%;
   height: 40vh;
 }
@@ -207,7 +208,7 @@ body {
 
 header {
   background-color: #171c47;
-  background-image: linear-gradient(#171c47,#000);
+  background-image: linear-gradient(#171c47 80%,#000);
   color: #fff;
   padding: 15px;
   text-align: auto;
@@ -228,26 +229,17 @@ h2 {
   font-size: 24px;
 }
 
-h8 {
-  font-size: 22px;
-}
-
 p {
   line-height: 1.5;
-  border: #171c47;
 }
 
 ul, ol {
   margin-top: 0;
   padding-left: 20px;
 }
-.titre_centrer_up{
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 2%;
-  text-decoration: none;
-  list-style: none;
-}
+
+
+
 .intro{
 text-align: center;
 }
@@ -257,14 +249,6 @@ text-align: center;
 transition{
 font-family:Georgia, 'Times New Roman', Times, serif;
 font-size: 118%;
-border: solid;
-padding-left: 3px;
-padding-top: 2px;
-padding-bottom: 4px;
-padding-right: 3px;
-border-radius: 5px;
-border-color: rgb(245, 245, 220)  ;
-background-color: rgb(245, 245, 220);
 }
 body main texte li{
 font-size: 118%;
@@ -283,14 +267,51 @@ font-size: 110%;
 
 /* FLEXBOX*/
 section{
-  border: #171c47;
-  border-color: #171c47;
+  border: solid 1.5px #171c47;
+  border-radius: 1em;
+  padding: 1em;
+  margin: 1em;
+  text-align: justify;
 }
+
+section .image-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.image-container img {
+  margin: 0 auto;
+  border-radius: 10%;
+  height: 1em;
+}
+
 .cont {
   display: flex;
   align-items: center;
 }
-html{
 
+.boite {
+  background-color: #fff;
+  color: red;
+  border: #000 solid 1px;
+  border-radius: 5% ;
+  text-align: justify;
+  margin: 30px;
+  padding: 1em;
+}
 
+.boite h6{
+  padding-bottom: 2em;
+  font-size: 22px;
+  color:blue; 
+  line-height: 15px;
+}
+
+.boite li{
+  padding-bottom: 0.5em;
+}
+.boite p{
+  padding-bottom: 0.5em;
 }
