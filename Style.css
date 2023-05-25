@@ -324,4 +324,6 @@ section .image-container{
 table{
   text-align : center;
   width:471.6px;
+  margin: auto;
+  margin-top: 2%;
 }
